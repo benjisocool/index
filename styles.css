@@ -1,0 +1,8 @@
+body { font-family: Arial; }
+nav { background: black; padding: 10px; }
+nav a { color: white; margin: 5px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+@media (max-width:600px){
+.grid { grid-template-columns: 1fr; }
+}
